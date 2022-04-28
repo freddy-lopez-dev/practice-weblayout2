@@ -1,0 +1,393 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* START HEADER HOME PAGE STYLE */
+
+header {
+  margin: 0 auto;
+  background-color: #293f50;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 2.3em;
+}
+
+.container h1 {
+  border-top: 3.5px solid #648880;
+  color: #648880;
+  font-size: 2.2em;
+  font-weight: 100;
+  padding-top: 0.3em;
+  padding-bottom: 1.3em;
+  text-align: justify;
+  text-transform: uppercase;
+  max-width: 3.5em;
+}
+
+.container h3 {
+  color: #648880;
+  font-weight: 300;
+  padding-bottom: 0.6em;
+}
+
+.title-nav {
+  text-align: center;
+}
+
+.links li {
+  display: inline;
+  list-style-type: none;
+}
+
+.links a {
+  color: white;
+  font-weight: 400;
+  font-size: 0.8em;
+  padding: 0.6em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contact-us {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.2em;
+  text-align: center;
+  padding-bottom: 3em;
+  width: auto;
+}
+
+.contact-us h2 {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 0 auto;
+  padding-bottom: 0.8em;
+}
+
+.contact-us p {
+  color: #648880;
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+
+.contact-us a {
+  display: block;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5em;
+  width: 10em;
+  margin: 0 auto;
+}
+
+.contact-us a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* START MAIN HOME PAGE STYLE */
+
+.home {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3em 0.7em;
+}
+
+.cat-list ul {
+  list-style-type: none;
+}
+
+.cat-list h3 {
+  color: rgb(173,181,188);
+  font-size: 0.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.cat-list img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.cat-list h2 {
+  padding-top: 1.2em;
+}
+
+.cat-list h2,
+p {
+  color: #648880;
+  font-weight: 400;
+  padding-bottom: 1em;
+}
+
+/* START FOOTER HOME PAGE STYLE */
+
+footer {
+  background-color: #293f50;
+}
+
+footer > section {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
+}
+
+footer h4 {
+  color: #648880;
+  font-weight: 300;
+  font-size: 0.8em;
+  padding-bottom: 1.2em;
+}
+
+footer li {
+  display: inline;
+  list-style-type: none;
+}
+
+footer a {
+  color: white;
+  font-weight: 300;
+  font-size: 0.8em;
+  padding-right: 1em;
+  text-decoration: none;
+}
+
+footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* START STAFF HEADER PAGE STYLES */
+
+.bottom-header {
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+.phasellus {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em 1em;
+}
+
+.phasellus h2 {
+  color: #648880;
+  font-weight: 300;
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
+}
+
+.phasellus p {
+  line-height: 2;
+  word-break: break-all;
+}
+
+/* START MAIN STAFF PAGE STYLE */
+
+.staff {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.staff-list h2 {
+  color: gray;
+  font-weight: 300;
+  font-size: 1.4em;
+  padding-bottom: 1em;
+}
+
+.staff-list h3 {
+  color: rgb(173,181,188);
+  font-weight: 400;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding-bottom: 2em;
+}
+
+.staff-list {
+  margin-bottom: 3.5em;
+}
+
+.staff-list p {
+  font-weight: 300;
+}
+
+.cat-profile {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: 1px solid rgba(124, 124, 124, 0.349);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 6em;
+  text-align: center;
+  padding: 1em;
+  width: 280px;
+}
+
+.cat-profile img {
+  position: absolute;
+  max-width: 120px;
+  border-radius: 50%;
+  bottom: 7em;
+}
+
+.cat-profile p {
+  padding-top: 5em;
+}
+
+.cat-profile p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* START HOME PAGE MEDIA QUERY 768px */
+  .container {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0em 1em;
+  }
+  
+  .container h1 {
+    border-top: 3.5px solid #648880;
+    color: white;
+    font-size: 1.9em;
+    font-weight: 100;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+
+  .contact-us p {
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+  }
+
+  .title-nav {
+    text-align: right;
+  }
+
+  .links a {
+    padding: 0em 0em 0em 1em;
+  }
+
+  .cat-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+
+  .cat-list p {
+    padding-bottom: 2em;
+  }
+
+  .cat-list li {
+    width: 40%;
+  }
+
+  .contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 1em;
+  }
+
+  footer > section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Start Staff Media Query 768px */
+
+  .staff {
+    padding-top: 4em;
+  }
+
+  .staff-list {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 4em;
+  }
+
+  .cat-body {
+    max-width: 60%;
+    margin-right: 2em;
+  }
+
+  .cat-profile {
+    margin-top: 4em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer > section {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contact-us {
+    padding-bottom: 3em;
+  }
+  
+  .contact-us h2 {
+    font-size: 2em;
+  }
+
+  .contact-us p {
+    font-size: 1.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+    line-height: 1.7;
+  }
+
+  .cat-list ul {
+    flex-wrap: nowrap;
+  }
+
+  .cat-list li {
+    width: 30%;
+  }
+
+  .cat-list img {
+    border-radius: 5px;
+    width: 95%;
+  }
+
+  footer > section {
+    font-size: 1.3em;
+  }
+}
